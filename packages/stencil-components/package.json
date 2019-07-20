@@ -1,0 +1,24 @@
+{
+  "name": "stencil-beer",
+  "private": true,
+  "version": "0.0.1",
+  "description": "This project was forked from https://github.com/ionic-team/stencil-starter",
+  "scripts": {
+    "doc": "npx compodoc -c .compodocrc.json",
+    "doc:serve": "npm run doc && npx compodoc -s"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/compodoc/compodoc-demo-stencil.git"
+  },
+  "author": "Vincent Ogloblinsky + Ionic Team",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/compodoc/compodoc-demo-stencil/issues"
+  },
+  "homepage": "https://github.com/compodoc/compodoc-demo-stencil#readme",
+  "devDependencies": {
+    "@compodoc/compodoc": "^1.1.7",
+    "semver": "^5.6.0"
+  }
+}
